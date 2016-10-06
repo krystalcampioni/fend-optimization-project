@@ -58,4 +58,6 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 ### Performance Improvements
 - Moved javascript resources to the end of the index.html file
--
+- Inlined custom font related CSS
+- Used media queries to only load the necessary CSS files for each situation
+- Optimized images
