@@ -58,9 +58,10 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 ### Performance Improvements
 - Moved javascript resources to the end of the index.html file
-- Inlined custom font related CSS
+- Inlined custom font related CSS and classes needed above the fold
 - Used media queries to only load the necessary CSS files for each situation
 - Optimized images
 - Refactored  changePizzaSizes function to avoid forced syncronous layout
 - Removed determineDx unused function
-- Created the createFlavouredPizzas function to use requestAnimationFrame in order to optimize the initial pizza creation time
+- Refactored updatePositions function to use requestAnimationFrame
+- Minified HTML, using http://www.willpeavy.com/minifier/
