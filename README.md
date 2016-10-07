@@ -61,3 +61,6 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 - Inlined custom font related CSS
 - Used media queries to only load the necessary CSS files for each situation
 - Optimized images
+- Refactored  changePizzaSizes function to avoid forced syncronous layout
+- Removed determineDx unused function
+- Created the createFlavouredPizzas function to use requestAnimationFrame in order to optimize the initial pizza creation time
